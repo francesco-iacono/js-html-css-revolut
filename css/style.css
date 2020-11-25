@@ -105,7 +105,7 @@ a {
 .active {
   display: block;
 }
-.active-flex {
+.submenu.active-flex {
   display: flex;
 }
 #position-static {

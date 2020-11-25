@@ -15,7 +15,12 @@ $(document).ready(function () {
     // fine hover li nel menu header-bottom-end
     $('#position-static').mouseenter(function () {
       console.log($('#position-static').children());
-      $('#position-static').children().toggleClass('active-flex');
+      $('.submenu').toggleClass('active-flex');
+      }
+    );
+    $('#position-static').mouseleave(function () {
+      console.log($('#position-static').children());
+      $('.submenu').toggleClass('active-flex');
       }
     );
   }
