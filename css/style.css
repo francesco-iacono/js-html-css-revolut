@@ -21,10 +21,35 @@ a {
   display: inline-block;
   list-style-type: none;
   padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.list-inline a:hover {
+  color: black;
 }
 /* button */
 .btn {
-  padding: 10px 20px;
+  padding: 13px 18px;
+  border-radius: 5px;
+  outline: none;
+  border: 0;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.btn-grey {
+  color: #3E4043;
+}
+.btn-grey:hover {
+  background-color: #DADBDB;
+}
+.btn-black {
+  padding: 15px 20px;
+  margin-left: 5px;
+  background-color: #191C1F;
+  color: #ffff;
+}
+.btn-black:hover {
+  background-color: #3E4043;
 }
 .wrapper {
   width: 80%;
@@ -42,9 +67,9 @@ a {
 .header-bottoom {
   width: 100%;
   height: 110px;
-  background-color: lightblue;
 }
 .row-header-bottom  {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -60,17 +85,17 @@ a {
 }
 .header-bottom-end {
   display: flex;
-  align-self: center;
+  align-items: center;
 }
 /* undre list */
 .under-list {
   position: absolute;
   display: none;
-  top: 40px;
-  width: 140px;
+  top: 38px;
+  width: 170px;
   padding: 10px;
   border-radius: 10px;
-  background-color: lightgreen;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 .under-list li {
   display: block;
@@ -79,6 +104,31 @@ a {
 }
 .active {
   display: block;
+}
+.active-flex {
+  display: flex;
+}
+#position-static {
+  position: static;
+}
+.submenu {
+  position: absolute;
+  left: 0;
+  top: 74px;
+  width: 100%;
+  display: none;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding: 25px;
+}
+.submenu ul {
+  padding-top: 20px;
+}
+.submenu li {
+  display: block;
+  color: #CED5DB;
 }
 /* /header-bottom */
 /* /header */
