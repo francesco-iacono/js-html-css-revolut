@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #8F98A0;
+}
+/* utilitis */
+/* liste inline */
+.list-inline {
+  padding: 10px 20px;
+}
+.list-inline li {
+  position: relative;
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 25px;
+}
+/* undre list */
+.under-list {
+  position: absolute;
+  top: 40px;
+  width: 140px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: lightgreen;
+}
+.under-list li {
+  display: block;
+  padding-right: 0px;
+  padding-bottom: 10px;
+}
+/* button */
+.btn {
+  padding: 10px 20px;
+}
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+/* header */
+/* header-top */
+.header-top {
+  width: 100%;
+  height: 80px;
+  background-color: #F3F4F5;
+}
+/* /header-top */
+/* header-bottom */
+.header-bottoom {
+  width: 100%;
+  height: 110px;
+  background-color: lightblue;
+}
+.row-header-bottom  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.header-bottom-start {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 40px;
+  margin-right: 10px;
+}
+.header-bottom-end {
+  display: flex;
+  align-self: center;
+}
+/* /header-bottom */
+/* /header */
