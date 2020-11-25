@@ -7,7 +7,7 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-a {
+a, p {
   text-decoration: none;
   color: #8F98A0;
 }
@@ -30,7 +30,7 @@ a {
 /* button */
 .btn {
   padding: 13px 18px;
-  border-radius: 5px;
+  border-radius: 10px;
   outline: none;
   border: 0;
   font-weight: bolder;
@@ -43,7 +43,7 @@ a {
   background-color: #DADBDB;
 }
 .btn-black {
-  padding: 15px 20px;
+  padding: 15px 18px;
   margin-left: 5px;
   background-color: #191C1F;
   color: #ffff;
@@ -52,7 +52,7 @@ a {
   background-color: #3E4043;
 }
 .wrapper {
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 /* header */
@@ -61,6 +61,37 @@ a {
   width: 100%;
   height: 80px;
   background-color: #F3F4F5;
+}
+.row-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  font-size: 12px;
+}
+.cookie-top {
+  display: flex;
+  align-items: center;
+}
+.cookie-top a {
+  padding-left: 3px;
+  color: #4087E5;
+}
+.btn-top {
+  display: flex;
+  align-items: center;
+}
+.btn-top a {
+  padding-right: 5px;
+}
+.btn-cookie {
+  background-color: #F3F4F5;
+  border: 1px solid  #8F98A0;
+  color: #8F98A0;
+}
+.btn-cookie:hover {
+  border: 1px solid  #191C1F;
+  transition: 2s;
 }
 /* /header-top */
 /* header-bottom */
@@ -96,6 +127,7 @@ a {
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: #ffff;
 }
 .under-list li {
   display: block;
@@ -122,6 +154,7 @@ a {
   border-radius: 10px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   padding: 25px;
+  background-color: #ffff;
 }
 .submenu ul {
   padding-top: 20px;
@@ -132,3 +165,22 @@ a {
 }
 /* /header-bottom */
 /* /header */
+/* main */
+.jumbotron {
+  display: flex;
+  padding: 80px 0;
+}
+#jumbotron-title {
+  width: 50%;
+  padding-right: 125px;
+}
+#jumbotron-title h1 {
+  font-size: 70px;
+  padding-bottom: 30px;
+}
+#jumbotron-img {
+  width: 50%;
+}
+#jumbotron-img img {
+  width: 70%;
+}
