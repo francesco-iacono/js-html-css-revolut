@@ -22,20 +22,6 @@ a {
   list-style-type: none;
   padding-right: 25px;
 }
-/* undre list */
-.under-list {
-  position: absolute;
-  top: 40px;
-  width: 140px;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: lightgreen;
-}
-.under-list li {
-  display: block;
-  padding-right: 0px;
-  padding-bottom: 10px;
-}
 /* button */
 .btn {
   padding: 10px 20px;
@@ -75,6 +61,24 @@ a {
 .header-bottom-end {
   display: flex;
   align-self: center;
+}
+/* undre list */
+.under-list {
+  position: absolute;
+  display: none;
+  top: 40px;
+  width: 140px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: lightgreen;
+}
+.under-list li {
+  display: block;
+  padding-right: 0px;
+  padding-bottom: 10px;
+}
+.active {
+  display: block;
 }
 /* /header-bottom */
 /* /header */
